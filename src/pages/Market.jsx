@@ -357,4 +357,4 @@ const MarketPage = () => {
   );
 };
 
-export default MarketPage;
+export default Market;
