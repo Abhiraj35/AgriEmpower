@@ -1,6 +1,6 @@
 import React from "react";
 
-const MarketPage = () => {
+const Market = () => {
   return (
     <div className=" bg-gray-900 p-4 lg:p-8 mt-20">
       {/* Search Bar and Filters */}
