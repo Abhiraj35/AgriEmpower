@@ -55,7 +55,7 @@ const Payment = () => {
               Order Placed Successfully!
             </h3>
             <img
-              src="./src/images/tick.png"
+              src="./images/tick.jpg"
               alt="Order Placed"
               className="w-16 h-16 mx-auto mt-4"
             />

@@ -9,7 +9,7 @@ function Header() {
           <div className="flex items-center space-x-4">
             <NavLink to="/" className={"flex items-center text-xl"}>
               <img
-                src="./src/images/logo.png"
+                src="./images/logo.png"
                 alt="logo"
                 className="h-12 w-12  mr-2"
               />
@@ -30,7 +30,7 @@ function Header() {
             <NavLink to="/community">
               <div className="flex items-center">
                 <img
-                  src="./src/images/community.png"
+                  src="./images/community.png"
                   className="w-5 h-5 mx-2"
                   alt="community"
                 />
@@ -61,7 +61,7 @@ function Header() {
               <div className="flex items-center">
                 <img
                   className="w-4 h-5 mx-2"
-                  src="./src/images/cart.png"
+                  src="./images/Cart.png"
                   alt="cart"
                 />
                 <button className="btn text-white">Cart</button>
@@ -72,7 +72,7 @@ function Header() {
             <span>
               <img
                 className="w-10 h-10 rounded-3xl"
-                src="./src/images/avatar.png"
+                src="./images/avatar.png"
                 alt="avatar"
               />
             </span>

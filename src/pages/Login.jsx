@@ -19,7 +19,7 @@ function Login() {
         {/* Illustration Video */}
         <div className="hidden md:block w-1/2">
           <video
-            src=".\src\images\login-animation.mp4"
+            src=".\images\login-animation.mp4"
             autoPlay
             loop
             muted

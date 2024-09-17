@@ -51,7 +51,7 @@ function About() {
         <div className="flex  justify-center gap-8 mb-12">
           <div className="w-full md:w-1/2 lg:w-1/3 bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 overflow-hidden">
             <img
-              src="./src/images/about-farmerRegestration.jpg"
+              src="./images/about-farmerRegestration.jpg"
               alt="Farmer Registration"
               className="w-full h-50 object-cover rounded-lg mb-4"
             />
@@ -66,7 +66,7 @@ function About() {
 
           <div className="w-full md:w-1/2 lg:w-1/3 bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 overflow-hidden">
             <img
-              src="./src/images/input-illestration.jpg"
+              src="./images/input-illestration.jpg"
               alt="Input Selection"
               className="w-full h-50 object-cover rounded-lg mb-4"
             />
@@ -81,7 +81,7 @@ function About() {
 
           <div className="w-full md:w-1/2 lg:w-1/3 bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition duration-300 overflow-hidden">
             <img
-              src=".\src\images\product-manager-concept-illustration.jpg"
+              src=".\images\product-manager-concept-illustration.jpg"
               alt="Order Processing"
               className="w-full h-50 object-cover rounded-lg mb-4"
             />

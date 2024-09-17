@@ -33,7 +33,7 @@ const Market = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4">
           <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
             <img
-              src="./src/images/wheat.jpg"
+              src="./images/wheat.jpg"
               alt="Crop"
               className="h-32 w-full object-cover rounded-md mb-2"
             />
@@ -41,20 +41,10 @@ const Market = () => {
             <p className="text-green-600 font-bold">₹30 per kg</p>
           </div>
 
-
-
-
-
-
-
-
-
-
-
           {/* Add other crop cards here */}
           <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
             <img
-              src="./src/images/rice.jpg"
+              src="./images/rice.jpg"
               alt="Crop"
               className="h-32 w-full object-cover rounded-md mb-2"
             />
@@ -65,7 +55,7 @@ const Market = () => {
 
           <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
             <img
-              src="./src/images/corn.jpg"
+              src="./images/corn.jpg"
               alt="Crop"
               className="h-32 w-full object-cover rounded-md mb-2"
             />
@@ -75,7 +65,7 @@ const Market = () => {
           {/* Add other crop cards here */}
           <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
             <img
-              src="./src/images/onion.jpg"
+              src="./images/Onion.jpg"
               alt="Crop"
               className="h-32 w-full object-cover rounded-md mb-2"
             />
@@ -96,7 +86,7 @@ const Market = () => {
               {/* Crop Cards */}
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/wheat.jpg"
+                  src="./images/wheat.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -107,7 +97,7 @@ const Market = () => {
               {/* Add other crop cards here */}
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/rice.jpg"
+                  src="./images/rice.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -117,7 +107,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/corn.jpg"
+                  src="./images/corn.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -127,7 +117,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/coffee.jpg"
+                  src="./images/coffee.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -137,7 +127,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/barley.jpg"
+                  src="./images/barley.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -147,7 +137,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/millet.jpg"
+                  src="./images/millet.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -158,7 +148,7 @@ const Market = () => {
               {/* Add other crop cards here */}
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/peanut.jpg"
+                  src="./images/peanut.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -168,7 +158,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/oats.jpg"
+                  src="./images/oats.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -178,7 +168,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/quinoa.jpeg"
+                  src="./images/Quinoa.jpeg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -188,7 +178,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/cotton.jpg"
+                  src="./images/cotton.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -198,7 +188,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/sugarcane.jpg"
+                  src="./images/Sugarcane.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -210,7 +200,7 @@ const Market = () => {
 
               <div className="bg-gray-800 shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src="./src/images/onion.jpg"
+                  src="./images/Onion.jpg"
                   alt="Crop"
                   className="h-32 w-full object-cover rounded-md mb-2"
                 />
@@ -230,7 +220,7 @@ const Market = () => {
               {/* Buyer Cards */}
               <div className="bg-gray-800 text-white shadow-md rounded-lg p-4 flex  items-center hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src=".\src\images\mota-bhai.jpeg"
+                  src=".\images\mota-bhai.jpeg"
                   alt="Buyer"
                   className="h-16 w-16 rounded-full object-cover mr-4"
                 />
@@ -246,7 +236,7 @@ const Market = () => {
 
               <div className="bg-gray-800 text-white shadow-md rounded-lg p-4 flex items-center hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src=".\src\images\bill-gates.jpeg"
+                  src=".\images\bill-gates.jpeg"
                   alt="Buyer"
                   className="h-16 w-16 rounded-full object-cover mr-4"
                 />
@@ -261,7 +251,7 @@ const Market = () => {
 
               <div className="bg-gray-800 text-white shadow-md rounded-lg p-4 flex items-center hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src=".\src\images\mukesh-ambani.jpeg"
+                  src=".\images\mukesh-ambani.jpeg"
                   alt="Buyer"
                   className="h-16 w-16 rounded-full object-cover mr-4"
                 />
@@ -276,7 +266,7 @@ const Market = () => {
 
               <div className="bg-gray-800 text-white shadow-md rounded-lg p-4 flex items-center hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src=".\src\images\Narendra Modi.jpeg"
+                  src=".\images\Narendra-Modi.jpeg"
                   alt="Buyer"
                   className="h-16 w-16 rounded-full object-cover mr-4"
                 />
@@ -291,7 +281,7 @@ const Market = () => {
 
               <div className="bg-gray-800 text-white shadow-md rounded-lg p-4 flex items-center hover:shadow-lg transition-shadow duration-300">
                 <img
-                  src=".\src\images\Mark-Zukerberg.jpeg"
+                  src=".\images\Mark-Zukerberg.jpeg"
                   alt="Buyer"
                   className="h-16 w-16 rounded-full object-cover mr-4"
                 />

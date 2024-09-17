@@ -11,7 +11,7 @@ const Home = () => {
       title: "Wheat",
       description:
         "Wheat is a widely cultivated grain, essential for bread and pasta.",
-      image: "./src/images/wheat.jpg",
+      image: "./images/wheat.jpg",
       moreInfo:
         "Wheat is rich in carbohydrates and a primary source of nutrition worldwide. It is grown in both temperate and tropical regions. The major wheat-growing countries include China, India, and Russia.",
     },
@@ -19,7 +19,7 @@ const Home = () => {
       title: "Rice",
       description:
         "Rice is a staple food for over half of the world’s population.",
-      image: "./src/images/rice.jpg",
+      image: "./images/rice.jpg",
       moreInfo:
         "Rice is cultivated in flooded fields called paddies. It comes in many varieties including basmati, jasmine, and brown rice, each with its unique flavor and texture.",
     },
@@ -27,7 +27,7 @@ const Home = () => {
       title: "Corn",
       description:
         "Corn is used for food, livestock feed, and as an industrial raw material.",
-      image: "./src/images/corn.jpg",
+      image: "./images/corn.jpg",
       moreInfo:
         "Corn is a versatile crop that is grown across the globe. It is a key ingredient in many foods such as cornmeal, corn syrup, and even ethanol for biofuel.",
     },
@@ -35,7 +35,7 @@ const Home = () => {
       title: "Coffee",
       description:
         "Soybeans are a rich source of protein and oil, widely used in various products.",
-      image: "./src/images/coffee.jpg",
+      image: "./images/coffee.jpg",
       moreInfo:
         "Soybeans are a rich source of protein and oil, widely used in various products. They are grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -43,7 +43,7 @@ const Home = () => {
       title: "Barley",
       description:
         "Barley is a versatile grain used in soups, bread, and beverages like beer.",
-      image: "./src/images/barley.jpg",
+      image: "./images/barley.jpg",
       moreInfo:
         "Barley is a versatile grain used in soups, bread, and beverages like beer. It is grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -51,7 +51,7 @@ const Home = () => {
       title: "Millet",
       description:
         "Millet is a small-seeded grass that is important for both human and livestock consumption.",
-      image: "./src/images/millet.jpg",
+      image: "./images/millet.jpg",
       moreInfo:
         "Millet is a small-seeded grass that is important for both human and livestock consumption. It is grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -59,7 +59,7 @@ const Home = () => {
       title: "Peanut",
       description:
         "Sorghum is a drought-tolerant grain, used for food, fodder, and biofuel.",
-      image: "./src/images/peanut.jpg",
+      image: "./images/peanut.jpg",
       moreInfo:
         "Sorghum is a drought-tolerant grain, used for food, fodder, and biofuel. It is grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -67,7 +67,7 @@ const Home = () => {
       title: "Oats",
       description:
         "Oats are commonly eaten as oatmeal or rolled oats, and are used in cereals and baking.",
-      image: "./src/images/oats.jpg",
+      image: "./images/oats.jpg",
       moreInfo:
         "Oats are commonly eaten as oatmeal or rolled oats, and are used in cereals and baking. They are grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -75,7 +75,7 @@ const Home = () => {
       title: "Quinoa",
       description:
         "Quinoa is a protein-rich seed often considered a superfood, popular in health-conscious diets.",
-      image: "./src/images/quinoa.jpeg",
+      image: "./images/Quinoa.jpeg",
       moreInfo:
         "Quinoa is a protein-rich seed often considered a superfood, popular in health-conscious diets. It is grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -83,14 +83,14 @@ const Home = () => {
       title: "Cotton",
       description:
         "Cotton is a fiber crop widely used for textiles and clothing.",
-      image: "./src/images/cotton.jpg",
+      image: "./images/cotton.jpg",
       moreInfo:
         "Cotton is a fiber crop widely used for textiles and clothing. It is grown in many countries, including Brazil, Mexico, and India.",
     },
     {
       title: "Sugarcane",
       description: "Sugarcane is cultivated for sugar production and biofuel.",
-      image: "./src/images/sugarcane.jpg",
+      image: "./images/Sugarcane.jpg",
       moreInfo:
         "Sugarcane is cultivated for sugar production and biofuel. It is grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -98,7 +98,7 @@ const Home = () => {
       title: "Onion",
       description:
         "Onions are widely used in cooking for their sharp flavor and as a base for many dishes.",
-      image: "./src/images/onion.jpg",
+      image: "./images/Onion.jpg",
       moreInfo:
         "Onions are widely used in cooking for their sharp flavor and as a base for many dishes. They are grown in many countries, including Brazil, Mexico, and India.",
     },
@@ -118,8 +118,8 @@ const Home = () => {
 
   return (
     <div
-      className="bg-cover bg-center w-full mt-20 py-10"
-      style={{ backgroundImage: `url('../src/images/Background.png')` }}
+      className="bg-cover bg-center w-full mt-20 py-10 bg-repeat"
+      style={{ backgroundImage: `url('./images/Background.png')` }}
     >
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-6 lg:px-28 py-10 space-y-8 lg:space-y-0">
         {/* Main Content (Text Section) */}
@@ -152,7 +152,7 @@ const Home = () => {
         {/* Illustration Section */}
         <div className="lg:w-2/5 mt-8 lg:mt-0 flex justify-center">
           <img
-            src="./src/images/Home.png"
+            src="./images/Home.png"
             className="w-full max-w-xs lg:max-w-full"
             alt="Illustration"
           />
