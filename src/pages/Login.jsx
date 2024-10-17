@@ -1,16 +1,32 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { toast } from 'sonner'; // Import the toast function from Sonner
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
 
+  // Function to play the notification sound
+  const playSound = () => {
+    const audio = new Audio('./audio/notification.mp3'); // Correct path to your sound file
+    audio.play();
+  };
+
   const handleLogin = (e) => {
     e.preventDefault();
     // Perform login logic here (e.g., authentication API call)
-    // On successful login:
-    navigate('/home'); // Redirect to Home page
+    
+    // Show toast message on login
+    toast.success('Login successful! Redirected to Home...');
+
+    // Play the sound when the toast is triggered
+    playSound();
+
+    // Redirect to Home page after showing the toast
+    setTimeout(() => {
+      navigate('/home'); // Redirect to Home page
+    }, 1000); // Delay the navigation slightly to allow the toast to be visible
   };
 
   return (
@@ -19,7 +35,7 @@ function Login() {
         {/* Illustration Video */}
         <div className="hidden md:block w-1/2">
           <video
-            src=".\images\login-animation.mp4"
+            src="./images/login-animation.mp4"
             autoPlay
             loop
             muted
@@ -48,7 +64,6 @@ function Login() {
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Enter your email"
-                  
                 />
               </div>
 
@@ -67,18 +82,16 @@ function Login() {
                   onChange={(e) => setPassword(e.target.value)}
                   className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                   placeholder="Enter your password"
-                  
                 />
               </div>
 
               {/* Login Button */}
-              <Link
-                to="/home"
+              <button
                 type="submit"
                 className="block w-full bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-300 text-center"
               >
                 Login
-              </Link>
+              </button>
             </form>
 
             {/* Forgot Password Link */}

@@ -1,5 +1,6 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Toaster } from "sonner"; // Import the Toaster from sonner
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Header from "./components/Header";
@@ -49,7 +50,7 @@ function App() {
     },
     {
       path: "/cart",
-      element: (  
+      element: (
         <>
           <div className="w-screen h-screen bg-slate-900">
             <Header />
@@ -68,12 +69,12 @@ function App() {
             <Community />
             <Footer />
           </div>
-        </>  
+        </>
       ),
     },
     {
       path: "/feedback-response",
-      element: ( 
+      element: (
         <>
           <div className="w-screen h-screen bg-slate-900">
             <Header />
@@ -85,19 +86,19 @@ function App() {
     },
     {
       path: "/market",
-      element: ( 
+      element: (
         <>
           <div className="w-screen h-screen bg-slate-900">
             <Header />
             <Market />
             <Footer />
           </div>
-        </> 
+        </>
       ),
-    },  
+    },
     {
       path: "/payment",
-      element: ( 
+      element: (
         <>
           <div className="w-screen h-screen bg-slate-900">
             <Header />
@@ -106,12 +107,14 @@ function App() {
           </div>
         </>
       ),
-    },  
+    },
   ]);
 
   return (
     <>
       <RouterProvider router={router} />
+      {/* Add the Toaster component at the root level with the desired props */}
+      <Toaster position="bottom-right" expand={false} richColors />
     </>
   );
 }
