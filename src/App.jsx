@@ -1,6 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Toaster } from "sonner"; // Import the Toaster from sonner
+import './App.css';
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Header from "./components/Header";
