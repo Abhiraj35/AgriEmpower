@@ -2,6 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Toaster } from "sonner"; // Import the Toaster from sonner
 import './App.css';
+import Chatbot from './pages/Chatbot';
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Header from "./components/Header";
@@ -113,10 +114,13 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
-      {/* Add the Toaster component at the root level with the desired props */}
-      <Toaster position="bottom-right" expand={false} richColors />
-    </>
+    <RouterProvider router={router} />
+    {/* Add the Toaster component at the root level with the desired props */}
+    <Toaster position="bottom-right" expand={false} richColors />
+
+    {/* Add the Chatbot component */}
+    <Chatbot /> {/* Chatbot will be available on all routes */}
+  </>
   );
 }
 
